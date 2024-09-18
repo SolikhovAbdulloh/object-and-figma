@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contiener {
+  padding: 10px 40px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+button{
+  background-color: #0071e3;
+  border-radius: 980px;
+  width: 104px;
+  color: white;
+  height: 36px;
+}
+.btn2{
+  border-radius: 980px;
+  width: 72px;
+  height: 36px;
+  color: white;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #0071e3;
+}
+
+
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 30%;
+      height: 30%;
+      object-fit: cover;
+    }
+    .s{
+        display: flex;
+        flex-direction: column;
+    }
