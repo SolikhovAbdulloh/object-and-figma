@@ -54,12 +54,13 @@ a:hover{
       justify-content: center;
       align-items: center;
     }
-
+    
     .swiper-slide img {
       display: block;
-      width: 30%;
-      height: 30%;
-      object-fit: cover;
+      justify-content: center;
+      width: 50%;
+      height: 50%;
+      
     }
     .s{
         display: flex;

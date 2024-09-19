@@ -692,18 +692,6 @@ video {
   font-size: 51px;
 }
 
-.text-\[32px\]{
-  font-size: 32px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
-}
-
-.text-\[16px\]{
-  font-size: 16px;
-}
-
 .font-normal{
   font-weight: 400;
 }
@@ -806,10 +794,9 @@ a:hover{
 
 .swiper-slide img {
   display: block;
-  width: 30%;
-  height: 30%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
 }
 
 .s{
